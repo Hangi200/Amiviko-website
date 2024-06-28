@@ -6,7 +6,7 @@
     --text-primary: #1d2130;
     --black: #0b0706;
     --text-color: #525252;
-    --text-secondary: #bebebe;
+    --text-secondary: #e9e9e9;
     --primary: #ffc107;
     --white: white;
     --green-tertiary: #eff7f2;
@@ -74,8 +74,8 @@ video{
 
     .homeTitle{
         position: relative;
-        font-size: 1.8rem;
-        font-weight: 600;
+        font-size: 1.7rem;
+        font-weight: 700;
     }
 
     }
@@ -126,6 +126,42 @@ video{
                 }
             }
 
+            .icon{
+               font-size: 25px;
+               color: var(--primary-color)
+               !important;
+               margin-left: 10px;
+            }
+
+            .input[type=range]{
+                background: yellow;
+            }
+        }
+
+
+        .searchOptions{
+            position: absolute;
+            background: var(--primary-color);
+            width: max-content;
+            bottom:-0.7rem ;
+            column-gap: .8rem;
+            padding: 5px 1rem;
+            border-radius: 3rem;
+            left: 50%;
+            transform: translate(-50%);
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover{
+               background: var(--green-primary);
+            }
+            .icon{
+                font-size: 18px;
+            }
+
+            span{
+                font-size: 13px;
+            }
         }
 
     }

@@ -23,7 +23,7 @@ const Navbar = () => {
       <header className="header">
         <div className="logoDiv">
           <a href="" className="logo">
-            <h2>
+            <h2 className="head">
               <SiEventbrite className="icon" />
               Amiviko.
             </h2>

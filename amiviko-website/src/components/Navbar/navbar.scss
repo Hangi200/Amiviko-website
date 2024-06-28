@@ -24,8 +24,10 @@ $border-color: #ccc;
     --light-steel-blue-text: #c1cfe1;
 }
 
-.h1{
-    font-weight: 500;
+.head{
+    font-weight: 550;
+    font-size: 22px;
+    font-family: 'poppins', sans-serif;
 }
 
 .header{
@@ -86,7 +88,7 @@ $border-color: #ccc;
               .navLink{
                 color: var(--text-primary);
                align-items: center;
-                font-size: .9rem;
+                font-size: 0.9rem;
                 font-weight: 600;
                 &:hover{
                     color: var(--green-primary);
