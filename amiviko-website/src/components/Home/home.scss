@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    /* --PrimaryColor:hsl(199,100%,33%); */
+    --text-primary: #1d2130;
+    --black: #0b0706;
+    --text-color: #525252;
+    --text-secondary: #bebebe;
+    --primary: #ffc107;
+    --white: white;
+    --green-tertiary: #eff7f2;
+    --green-secondary: #bef3c0;
+    --green-primary: #70c174;
+    --off-white: #ebf0f9;
+    --border: #e5e5e5;
+    --light-grey: #d0d0d0;
+    --border-2-3: #c1cfe1;
+    --white-smoke-background: #eff1f4;
+    --border-2: #ddd;
+    --light-steel-blue-border: #c1cfe1;
+    --light-steel-blue-text: #c1cfe1;
+}
+
+.home{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+.overlay{
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    background: rgb(78, 56, 5);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+
+video{
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.homeContent{
+    width:100%;
+    height: max-content;
+    padding: 8rem 1.5rem 3rem;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction:column ;
+    align-items: stretch;
+    justify-content: center;
+    margin: auto;
+    color: var(--off-white);
+    z-index: 100;
+
+    .textDiv{
+        padding: 2rem 0;
+
+    .smallText{
+        font-size: 13px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .homeTitle{
+        position: relative;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    }
+
+    .cardDiv{
+        position: relative;
+        padding: 2rem 1rem;
+        background: var(--off-white);
+        border-radius: 10px;
+        gap: 1rem;
+
+        label{
+            display: block;
+            color: var(--text-color);
+            padding-bottom: 10px;
+            font-size: 13px;
+            font-weight: 500; 
+        }
+
+        .label_total{
+            justify-content: space-between;
+            align-items: center;
+
+
+            .total{
+                color: var(--text-color);
+                font-size: 18px;
+                padding-bottom: 10px;
+            }
+        }
+
+        .input{
+            height: 40px;
+            padding: 0 1rem;
+            background: var(--text-secondary);
+            border-radius: 3rem;
+
+            input{
+                background: none;
+                border:none ;
+                outline: none;
+                width: 100%;
+                font-size: 13px;
+                font-weight: 500;
+                &::placeholder{
+                    font-size: 13px;
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+}

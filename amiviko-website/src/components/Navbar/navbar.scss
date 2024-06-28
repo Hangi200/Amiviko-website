@@ -1,0 +1,136 @@
+$primary-color: #333;
+$secondary-color: #ffcc00;
+$border-color: #ccc;
+
+
+:root{
+    
+    --text-primary: #1d2130;
+    --black: #0b0706;
+    --text-color: #525252;
+    --text-secondary: #525560;
+    --primary-color: #FFB901;
+    --white: white;
+    --green-tertiary: #eff7f2;
+    --green-secondary: #bef3c0;
+    --green-primary: #358F46;
+    --off-white: #ebf0f9;
+    --border: #e5e5e5;
+    --light-grey: #d0d0d0;
+    --border-2-3: #c1cfe1;
+    --white-smoke-background: #eff1f4;
+    --border-2: #ddd;
+    --light-steel-blue-border: #c1cfe1;
+    --light-steel-blue-text: #c1cfe1;
+}
+
+.h1{
+    font-weight: 500;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white-smoke-background);
+    width: 100%;
+   padding: 1rem;
+   z-index: 1000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
+
+   .logo{
+    color: var(--text-primary);
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    .icon{
+        font-size: 25px; 
+        color: var(--primary-color);
+        transform: translateY(5px);
+    }
+
+   }
+   @media screen and (max-width:768px) {
+   
+    
+    .navBar{
+        position:absolute;
+        background: var(--white-smoke-background);
+        height: max-content;
+        width: 80%;
+        border-radius: 1rem;
+        align-items: center;
+        top: -500rem;
+        left: 50%;
+        padding: 2rem;
+        transform: translate(-50%);
+        z-index: 2000;
+        box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+        transition: -1s ease-in-out;
+
+
+        .navLists{
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin: auto ;
+            padding: .5rem 0;
+
+            .navItem{
+                padding: .5rem 0;
+
+
+              .navLink{
+                color: var(--text-primary);
+               align-items: center;
+                font-size: .9rem;
+                font-weight: 600;
+                &:hover{
+                    color: var(--green-primary);
+                }
+              }
+            }
+         .btn{
+            margin-top: 1rem;
+            color: var(--primary-color);
+
+            a{
+                font-weight: 600;
+                color: var(--white);
+            }
+         }  
+        }
+
+        .closeNavbar{
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            color: var(--primary-color);
+            &:hover{
+                color:var(--green-primary);
+            }
+
+        }
+    }
+    .activeNavbar{
+        top: 7rem;
+
+    }
+}
+.toggleNavbar{
+    .icon{
+        font-size: 25px;
+        color: var(--primary-color);
+    }
+    
+    &:hover.icon{
+        color: var(--green-primary);
+    }
+
+   }
+   
+
+}
