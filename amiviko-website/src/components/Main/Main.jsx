@@ -7,11 +7,11 @@ const Data = [
   {
     id: 1,
     imgSrc: img,
-    destTitle: "Friend Gathered",
-    location: "New-Zealand",
+    destTitle: "Friends Gathered",
+    location: "Samaki Samaki",
     grade: "CULTURAL RELAX",
-    fees: "$10",
-    description: "6TH ANNUAL ENGINEERING TECHNICIANS DAY (AETD)"
+    fees: "$20",
+    description: "This is friends gatherd occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together.."
   },
 ];
 
@@ -22,7 +22,7 @@ const Main = () => {
     < section className="main container section" >
       <div className="secTitle">
         <h3 className="title">
-          most visited Occasions
+          most Address Occasions
         </h3>
       </div>
       
@@ -43,9 +43,18 @@ const Main = () => {
 
                   <div className="fees flex">
                     <div className="grade">
-                      <span>{grade }<small>+</small></span>
+                      <span>{grade}<small>+</small></span>
+                    </div>
+                    <div className="price">
+                      <h5>{fees}</h5>
                     </div>
                   </div>
+                  <div className="desc">
+                    <p>{ description}</p>
+                  </div>
+                  <button className="btn flex">
+                    see more
+                </button>
                 </div>
               </div>
             );

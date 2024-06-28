@@ -1,0 +1,65 @@
+:root{
+    /* --PrimaryColor:hsl(199,100%,33%); */
+    --text-primary: #1d2130;
+    --black: #0b0706;
+    --text-color: #525252;
+    --text-secondary: #525560;
+    --primary: #ffc107;
+    --white: white;
+    --green-tertiary: #eff7f2;
+    --green-secondary: #bef3c0;
+    --green-primary: #70c174;
+    --off-white: #ebf0f9;
+    --border: #e5e5e5;
+    --light-grey: #d0d0d0;
+    --border-2-3: #c1cfe1;
+    --white-smoke-background: #eff1f4;
+    --border-2: #ddd;
+    --light-steel-blue-border: #c1cfe1;
+    --light-steel-blue-text: #c1cfe1;
+}
+
+.main{
+    width: 100%;
+
+    .secTitle{
+        .title{
+            position: relative;
+            width: max-content;
+            color: var(--text-color);
+            margin: 1rem 0;
+            z-index: 2;
+
+            &::after{
+                position: absolute;
+                content:'';
+                background: var(--green-primary);
+                height: 5px;
+                width: 120px;
+                right: 0;
+                bottom: 5px;
+                z-index: -1;
+            }
+        }
+    }
+
+    .secConten{
+        justify-content: center;
+        gap: 1.5rem;
+
+    .singleDestination{
+        height: 100%;
+        display: grid;
+        row-gap:10px ;
+        // padding: 1rem;
+        border-radius: 10px;
+        align-items: center;
+        background:var(--border) ;
+        box-shadow: 0 2px 4px rgba(66, 66, 66, 0.549);
+        overflow: hidden;
+        
+
+     }   
+ }
+
+}
