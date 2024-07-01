@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     /* --PrimaryColor:hsl(199,100%,33%); */
     --text-primary: #1d2130;
     --black: #0b0706;
     --text-color: #525252;
-    --text-secondary: #525560;
+    --text-secondary: #e9e9e9;
     --primary: #ffc107;
     --white: white;
-    --green-tertiary: #eff7f2;
+    --green-tertiary: #f5dd9b;
     --green-secondary: #bef3c0;
     --green-primary: #70c174;
     --off-white: #ebf0f9;
@@ -19,31 +21,32 @@
     --light-steel-blue-text: #c1cfe1;
 }
 
-.main{
+ .main{
     width: 100%;
+  
 
     .secTitle{
         .title{
             position: relative;
             width: max-content;
-            color: var(--text-color);
+            color: var(--black);
             margin: 1rem 0;
             z-index: 2;
 
             &::after{
                 position: absolute;
                 content:'';
-                background: var(--green-primary);
+                background: var(--primary-color);
                 height: 5px;
-                width: 120px;
+                width: 122px;
                 right: 0;
-                bottom: 5px;
+                bottom: 0.5px;
                 z-index: -1;
             }
         }
     }
 
-    .secConten{
+    .secContent{
         justify-content: center;
         gap: 1.5rem;
 
@@ -54,12 +57,111 @@
         // padding: 1rem;
         border-radius: 10px;
         align-items: center;
-        background:var(--border) ;
+        background:var(--off-white) ;
         box-shadow: 0 2px 4px rgba(66, 66, 66, 0.549);
         overflow: hidden;
-        
+        &:hover{
+            background:var(--border) ;
+            box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+            transition: .3s ease;
+        }
 
+        .imgDiv{
+            height: 180px;
+            width: 100%;
+            overflow: hidden;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: 2s ease;
+
+            }
+
+            &:hover{
+                img{
+                    transform: scale(1.1); 
+                }
+            }
+        }
+           .cardInfo{
+                  padding: 1rem;
+
+                  .destTitle{
+                    color: var(--black);
+                    font-size: 1.25rem;
+                  }
+
+                  .continent{
+                    gap: .5rem;
+
+                  .icon{
+                    color: var(--primary-color);
+                    font-size: 20px;
+                  }
+
+                  .name{
+                    color: var(--text-color);
+                    font-weight: 400;
+                    font-size: 14px;
+                  }
+               }
+
+               .fees{
+                 width: 100%;
+                 justify-content: space-between;
+                 padding: 1rem;
+                 margin: 1rem 0;
+                 border-top: 1.5px solid var(--green-tertiary) ;
+                 border-bottom: 1.5px solid var(--green-tertiary) ;
+
+                 .grade{
+                    color: var(--text-color);
+                    max-width:100px ;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    small{
+                        text-align: center;
+                        font-family: 'poppins', sans-serif;
+                        background: var(--primary-color);
+                        border-radius: 1rem;
+                        color: var(--black);
+                        padding: 1px 8px;
+                        font-size: 10px;
+                        // font-weight: 500;
+                    }
+                 }
+
+                 .price{
+                    font-size: 2rem;
+                    color: var(--black);
+                 }
+               }
+            
+             .desc{
+                font-size: 13.5px;
+                color: var(--text-color);
+                font-weight:400;
+             }  
+             .btn{
+               margin-top: 1rem; 
+               color: var(--black);
+               font-weight: 600;
+               justify-content: space-between;
+               gap: .5rem;
+
+               .icon{
+                align-self: center;
+                font-size: 18px;
+               }
+             }
+           }
      }   
  }
 
 }
+

@@ -1,6 +1,9 @@
 import React from "react";
 import "./main.scss";
 import img from '../../Assets/pic1.jpg'
+import img2 from "../../Assets/pic2.jpg";
+import img3 from "../../Assets/pic3.jpg";
+import img4 from "../../Assets/pic4.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Data = [
@@ -9,9 +12,40 @@ const Data = [
     imgSrc: img,
     destTitle: "Friends Gathered",
     location: "Samaki Samaki",
-    grade: "CULTURAL RELAX",
+    grade: "COST",
     fees: "$20",
-    description: "This is friends gatherd occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together.."
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+  },
+  {
+    id: 2,
+    imgSrc: img2,
+    destTitle: "Weekend Party",
+    location: "Havoc Nightspot",
+    grade: "COST",
+    fees: "$40",
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+  },
+  {
+    id: 3,
+    imgSrc: img3,
+    destTitle: "Weekend Party",
+    location: "Havoc Nightspot",
+    grade: "COST",
+    fees: "$40",
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+  },
+  {
+    id: 4,
+    imgSrc: img4,
+    destTitle: "Weekend Party",
+    location: "Havoc Nightspot",
+    grade: "COST",
+    fees: "$40",
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
 ];
 
@@ -19,7 +53,7 @@ const Data = [
 
 const Main = () => {
   return (
-    < section className="main container section" >
+    < section className="main " >
       <div className="secTitle">
         <h3 className="title">
           most Address Occasions

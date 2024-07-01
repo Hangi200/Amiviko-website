@@ -6,7 +6,7 @@
     --text-primary: #1d2130;
     --black: #0b0706;
     --text-color: #525252;
-    --text-secondary: #525560;
+    --text-secondary: #e9e9e9;
     --primary: #ffc107;
     --white: white;
     --green-tertiary: #eff7f2;
@@ -58,6 +58,7 @@ li{
 
 .btn{
   background: var(--primary-color);
+  color: var(--black);
   border-radius: 3rem;
   border: none;
   outline: none;
