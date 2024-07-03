@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./main.scss";
 import img from '../../Assets/pic1.jpg'
 import img2 from "../../Assets/pic2.jpg";
 import img3 from "../../Assets/pic3.jpg";
 import img4 from "../../Assets/pic4.jpg";
 import { FaLocationDot } from "react-icons/fa6";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Data = [
   {
@@ -52,19 +54,23 @@ const Data = [
 
 
 const Main = () => {
+  //lets create a react hook to add a scroll animation..
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    < section className="main " >
+    <section className="main ">
       <div className="secTitle">
-        <h3 className="title">
+        <h3 data-aos="fade-right" className="title">
           most Address Occasions
         </h3>
       </div>
-      
+
       <div className="secContent grid">
-        {
-          Data.map(({id,imgSrc,destTitle,location,grade,fees,description }) => {
+        {Data.map(
+          ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div key={id} className="singleDestination">
+              <div data-aos="fade-up" key={id} className="singleDestination">
                 <div className="imageDiv">
                   <img src={imgSrc} alt={destTitle} />
                 </div>
@@ -77,28 +83,27 @@ const Main = () => {
 
                   <div className="fees flex">
                     <div className="grade">
-                      <span>{grade}<small>+</small></span>
+                      <span>
+                        {grade}
+                        <small>+</small>
+                      </span>
                     </div>
                     <div className="price">
                       <h5>{fees}</h5>
                     </div>
                   </div>
                   <div className="desc">
-                    <p>{ description}</p>
+                    <p>{description}</p>
                   </div>
-                  <button className="btn flex">
-                    see more
-                </button>
+                  <button className="btn flex">see more</button>
                 </div>
               </div>
             );
-          })
-        }
-
+          }
+        )}
       </div>
-
-    </section >
-  )
+    </section>
+  );
 };
 
 export default Main

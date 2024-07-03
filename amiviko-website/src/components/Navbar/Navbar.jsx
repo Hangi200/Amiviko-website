@@ -52,8 +52,8 @@ const Navbar = () => {
                 Booking
               </a>
             </li>
-            <button className="btn">
-              <a href="#">BOOK NOW</a>
+            <button className="btn" type="submit">
+              BOOK NOW
             </button>
           </ul>
           <div onClick={removeNavbar} className="closeNavbar">

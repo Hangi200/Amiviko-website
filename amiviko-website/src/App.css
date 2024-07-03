@@ -21,6 +21,9 @@
     --light-steel-blue-border: #c1cfe1;
     --light-steel-blue-text: #c1cfe1;
 }
+html{
+  scroll-behavior:smooth ;
+}
 
 a{
     text-decoration:none ;
@@ -92,4 +95,22 @@ input{
 
 body{
     background: var(--off-white);
+}
+
+@media screen and (min-width: 1240px){
+  .container{
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+  .section{
+    padding: 6rem 0 4rem;
+
+  }
+}
+
+@media screen and (min-width: 2560px){
+  body{
+    zoom: 1.7;
+  }
 }
