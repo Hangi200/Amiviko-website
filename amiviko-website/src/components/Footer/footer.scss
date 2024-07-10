@@ -84,7 +84,7 @@
             }
             .inputDiv{
                width: 100%;
-               gap: 1rem;
+               gap: 2rem;
                flex-direction: column;
                
                input{
@@ -258,13 +258,13 @@
             justify-content: space-between;
 
             .inputDiv{
-                width: max-content;
+                width: 100%;
                 flex-direction: row;
                 justify-content: flex-start;
 
 
                 .input{
-                    width: 60%;
+                    width: 150%;
 
 
                     .btn{
@@ -296,6 +296,7 @@
 @media screen and (min-width: 1024px){
     .footer{
         .secContent{
+            
             .footerCard{
                 padding: 3rem 1rem;
 

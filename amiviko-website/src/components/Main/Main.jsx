@@ -49,6 +49,26 @@ const Data = [
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
+  {
+    id: 4,
+    imgSrc: img4,
+    destTitle: "Weekend Party",
+    location: "Havoc Nightspot",
+    grade: "COST",
+    fees: "$40",
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+  },
+  {
+    id: 4,
+    imgSrc: img4,
+    destTitle: "Weekend Party",
+    location: "Havoc Nightspot",
+    grade: "COST",
+    fees: "$40",
+    description:
+      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+  },
 ];
 
 

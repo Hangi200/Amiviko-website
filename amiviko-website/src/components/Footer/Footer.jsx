@@ -26,9 +26,9 @@ const Footer = () => {
         <div className="contactDiv flex">
           <div className="text">
             <small>KEEP IN TOUCH</small>
-            <h2 data-aos="fade-up">Book with US</h2>
+            <h2 >Book with US</h2>
           </div>
-          <div data-aos="fade-up" className="inputDiv flex">
+          <div className="inputDiv flex">
             <input type="text" placeholder="Enter Email Address" />
             <button className="btn flex" type="submit">
               SEND <FiSend className="icon" />
@@ -39,10 +39,10 @@ const Footer = () => {
           <div className="footerIntro flex">
             <div className="logoDiv">
               <a href="#" className="logo flex">
-                <SiEventbrite className="icon" /> Amiviko.
+                <SiEventbrite className="icon" /> AMIVIKO.
               </a>
             </div>
-            <div data-aos="fade-up" className="footerParagraph">
+            <div  className="footerParagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse metus nulla, pellentesque a sem in, malesuada sodales
               nulla. Nam sit amet orci eget purus gravida facilisis a a nulla.
@@ -53,7 +53,7 @@ const Footer = () => {
               Aliquam placerat condimentum arcu, at condimentum tortor facilisis
               in. Nulla et diam feugiat, blandit eros sit amet, porta felis.
             </div>
-            <div data-aos="fade-up" className="footerSocials flex">
+            <div  className="footerSocials flex">
               <FaXTwitter className="icon" />
 
               <FaFacebookF className="icon" />
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           <div className="footerLinks grid">
             <div
-              data-aos="fade-up"
+             
               data-aos-duration="4000"
               className="linkGroup"
             >
@@ -86,8 +86,8 @@ const Footer = () => {
               </li>
             </div>
             <div
-              data-aos="fade-up"
-              data-aos-duration="4000"
+              
+              
               className="linkGroup"
             >
               <span className="groupTitle">OUR PARTNERS</span>
