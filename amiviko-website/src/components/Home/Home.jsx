@@ -61,7 +61,7 @@ const Home = () => {
             <span>More filter</span>
           </div>
         </div>
-        <div data-aos="fade-up" className="homeFooterIcons flex">
+        <div  className="homeFooterIcons flex">
           <div className="rightIcon">
             <TfiFacebook className="icon" />
             <AiFillInstagram className="icon" />

@@ -23,7 +23,10 @@
 
  .main{
     width: 100%;
-  
+  width: 80% !important;
+    margin: auto !important;
+        padding: 4rem 0 4rem;
+
 
     .secTitle{
         .title{
@@ -115,8 +118,8 @@
                  justify-content: space-between;
                  padding: 1rem;
                  margin: 1rem 0;
-                 border-top: 1.5px solid var(--green-tertiary) ;
-                 border-bottom: 1.5px solid var(--green-tertiary) ;
+                 border-top: 1px solid var(--primary-color) ;
+                 border-bottom: 1px solid var(--primary-color) ;
 
                  .grade{
                     color: var(--text-color);
