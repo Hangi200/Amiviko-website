@@ -36,7 +36,7 @@
             &::after{
                 position: absolute;
                 content:'';
-                background: var(--primary-color);
+                // background: var(--primary-color);
                 height: 5px;
                 width: 122px;
                 right: 0;
@@ -49,6 +49,8 @@
     .secContent{
         justify-content: center;
         gap: 1.5rem;
+        display: flexbox;
+        
 
     .singleDestination{
         height: 100%;
@@ -174,8 +176,16 @@
       width: 155px !important;
     }
   }
+  .container{
+    width: 90% !important;
+    margin-left: 20px !important;
+  }
+.section{
+    padding: 9rem 0 4rem;
+
+  }
   .secContent{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 
     .singleDestination{
       height: auto;
@@ -184,8 +194,7 @@
 }
 @media screen and (min-width: 840px){
 .secContent{
-    grid-template-columns: repeat(3,1fr);
-
+    grid-template-columns: repeat(2,1fr);
     .singleDestination{
       height: auto;
     }

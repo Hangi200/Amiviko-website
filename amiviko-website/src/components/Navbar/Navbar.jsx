@@ -3,7 +3,7 @@ import './navbar.scss'
 import { SiEventbrite } from "react-icons/si";
 import { IoIosCloseCircle } from "react-icons/io";
 import { TbGridDots } from "react-icons/tb";
-
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -33,27 +33,36 @@ const Navbar = () => {
         <div className={active}>
           <ul className="navLists">
             <li className="navItem">
-              <a href="#" className="navLink">
-                Home
-              </a>
+              <Link to="/">
+                <a href="#" className="navLink">
+                  Home
+                </a>
+              </Link>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
-                About
-              </a>
+              <Link to="AboutPage">
+                <a href="AboutPage" className="navLink">
+                  About
+                </a>
+              </Link>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
-                Contact
-              </a>
+              <Link to="contact">
+                <a href="#" className="navLink">
+                  Contact
+                </a>
+              </Link>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
-                Booking
-              </a>
+              <Link to="booking">
+                <a href="#" className="navLink">
+                  Booking
+                </a>
+              </Link>
             </li>
+
             <button className="btn" type="submit">
-              BOOK NOW
+              Book Now
             </button>
           </ul>
           <div onClick={removeNavbar} className="closeNavbar">

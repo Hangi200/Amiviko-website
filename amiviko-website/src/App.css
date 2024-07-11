@@ -41,6 +41,7 @@ li{
 .container{
   padding-left: 1.5rem;
     padding-right: 1.5rem;
+    margin: auto !important;
 }
 
 .icon{
@@ -85,8 +86,9 @@ li{
 } */
 
 img, video{
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    display: block;
 }
 
 input{
@@ -95,16 +97,18 @@ input{
 
 body{
     background: var(--off-white);
+    margin: auto !important;
+    
 }
 
-@media screen and (min-width: 1240px){
+@media screen and (min-width: 540px){
   .container{
-    width: 80% !important;
+    width: 90% !important;
     margin: auto !important;
   }
 
   .section{
-    padding: 6rem 0 4rem;
+    padding: 9rem 0 4rem;
 
   }
 }
@@ -112,5 +116,9 @@ body{
 @media screen and (min-width: 2560px){
   body{
     zoom: 1.7;
+    .container{
+    width: 90% !important;
+    margin: auto !important;
+  }
   }
 }

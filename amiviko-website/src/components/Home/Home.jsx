@@ -58,7 +58,7 @@ const Home = () => {
           </div>
           <div className="searchOptions flex">
             <FaFilter className="icon" />
-            <span>MORE FILTERS</span>
+            <span>More filter</span>
           </div>
         </div>
         <div data-aos="fade-up" className="homeFooterIcons flex">
