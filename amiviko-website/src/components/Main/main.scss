@@ -67,7 +67,7 @@
         overflow: hidden;
         &:hover{
             background:var(--border) ;
-            box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+            box-shadow: 1 4px 4px rgba(236, 243, 176, 0.549);
             transition: .3s ease;
         }
 
@@ -121,6 +121,7 @@
                  border-top: 1px solid var(--primary-color) ;
                  border-bottom: 1px solid var(--primary-color) ;
 
+                 
                  .grade{
                     color: var(--text-color);
                     max-width:100px ;
@@ -132,18 +133,20 @@
                     small{
                         text-align: center;
                         font-family: 'poppins', sans-serif;
-                        background: var(--primary-color);
+                        // background: var(--primary-color);
                         border-radius: 1rem;
                         color: var(--black);
                         padding: 1px 8px;
-                        font-size: 10px;
+                        font-size: 1px;
                         // font-weight: 500;
                     }
                  }
 
                  .price{
-                    font-size: 2rem;
+                    font-size: 15px;
+                    font-weight: 100;
                     color: var(--black);
+                    font-family: 'poppins', sans-serif;
                  }
                }
             
@@ -181,7 +184,7 @@
   }
   .container{
     width: 90% !important;
-    margin-left: 20px !important;
+    margin-left: 50px !important;
   }
 .section{
     padding: 9rem 0 4rem;
@@ -198,6 +201,14 @@
 @media screen and (min-width: 840px){
 .secContent{
     grid-template-columns: repeat(2,1fr);
+    .singleDestination{
+      height: auto;
+    }
+  }
+}
+@media screen and (min-width: 1350px){
+.secContent{
+    grid-template-columns: repeat(3,1fr);
     .singleDestination{
       height: auto;
     }

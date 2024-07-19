@@ -62,6 +62,8 @@ video{
     margin: auto;
     color: var(--off-white);
     z-index: 100;
+     align-items: center;
+    justify-content: center;
 
     .textDiv{
         padding: 2rem 0;

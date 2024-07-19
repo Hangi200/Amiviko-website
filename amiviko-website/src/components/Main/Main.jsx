@@ -1,9 +1,9 @@
 import React,{useEffect} from "react";
 import "./main.scss";
-import img from '../../Assets/pic1.jpg'
-import img2 from "../../Assets/pic2.jpg";
+import img from '../../Assets/pic1.png'
+import img2 from "../../Assets/pic2.png";
 import img3 from "../../Assets/pic3.jpg";
-import img4 from "../../Assets/pic4.jpg";
+import img4 from "../../Assets/pic4.jpeg";
 import { FaLocationDot } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,61 +14,61 @@ const Data = [
     imgSrc: img,
     destTitle: "Friends Gathered",
     location: "Samaki Samaki",
-    grade: "COST",
-    fees: "$20",
+    grade: "DATE",
+    fees: "02/07/2023",
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
     id: 2,
     imgSrc: img2,
-    destTitle: "Weekend Party",
+    destTitle: "Family Gathered",
     location: "Havoc Nightspot",
-    grade: "COST",
-    fees: "$40",
+    grade: "DATE",
+    fees: "22/12/2023",
     description:
-      "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
+      "This is Family gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
     id: 3,
     imgSrc: img3,
-    destTitle: "Weekend Party",
+    destTitle: "Birthday Party",
     location: "Havoc Nightspot",
-    grade: "COST",
-    fees: "$40",
+    grade: "DATE",
+    fees: "02/02/2024",
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
     id: 4,
     imgSrc: img4,
-    destTitle: "Weekend Party",
+    destTitle: "Wedding party",
     location: "Havoc Nightspot",
-    grade: "COST",
-    fees: "$40",
+    grade: "DATE",
+    fees: "12/04/2024",
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
-    id: 4,
+    id: 5,
     imgSrc: img4,
     destTitle: "Weekend Party",
     location: "Havoc Nightspot",
-    grade: "COST",
-    fees: "$40",
+    grade: "DATE",
+    fees: "15/05/2024",
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
-    id: 4,
+    id: 5,
     imgSrc: img4,
     destTitle: "Weekend Party",
     location: "Havoc Nightspot",
-    grade: "COST",
-    fees: "$40",
+    grade: "DATE",
+    fees: "30/6/2024",
     description:
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
-  },
+  }
 ];
 
 
@@ -90,7 +90,7 @@ const Main = () => {
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div data-aos="fade-up" key={id} className="singleDestination">
+              <div key={id} className="singleDestination">
                 <div className="imageDiv">
                   <img src={imgSrc} alt={destTitle} />
                 </div>
@@ -103,13 +103,10 @@ const Main = () => {
 
                   <div className="fees flex">
                     <div className="grade">
-                      <span>
-                        {grade}
-                        <small>+</small>
-                      </span>
+                      <span>{grade} </span>
                     </div>
                     <div className="price">
-                      <h5>{fees}</h5>
+                      <h6>{fees}</h6>
                     </div>
                   </div>
                   <div className="desc">

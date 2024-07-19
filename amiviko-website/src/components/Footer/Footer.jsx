@@ -1,6 +1,6 @@
 import React,{useEffect} from "react";
 import "./footer.scss";
-import video2 from '../../Assets/vid1.mp4'
+// import video2 from '../../Assets/vid1.mp4'
 import { FiSend } from "react-icons/fi";
 import { SiEventbrite } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
@@ -19,9 +19,9 @@ const Footer = () => {
 
   return (
     <section className="footer">
-      <div className="videoDiv">
+      {/* <div className="videoDiv">
         <video src={video2} loop autoPlay muted type="video/mp4"></video>
-      </div>
+      </div> */}
       <div className="secContent container">
         <div className="contactDiv flex">
           <div className="text">
