@@ -4,6 +4,8 @@ import img from '../../Assets/pic1.png'
 import img2 from "../../Assets/pic2.png";
 import img3 from "../../Assets/pic3.jpg";
 import img4 from "../../Assets/pic4.jpeg";
+import img6 from "../../Assets/pic6.jpg"
+
 import { FaLocationDot } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -51,7 +53,7 @@ const Data = [
   },
   {
     id: 5,
-    imgSrc: img4,
+    imgSrc: img6,
     destTitle: "Weekend Party",
     location: "Havoc Nightspot",
     grade: "DATE",
