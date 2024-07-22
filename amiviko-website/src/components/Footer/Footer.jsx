@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="contactDiv flex">
           <div className="text">
             <small>KEEP IN TOUCH</small>
-            <h2 >Book with US</h2>
+            <h2>Book with US</h2>
           </div>
           <div className="inputDiv flex">
             <input type="text" placeholder="Enter Email Address" />
@@ -42,7 +42,7 @@ const Footer = () => {
                 <SiEventbrite className="icon" /> AMIVIKO.
               </a>
             </div>
-            <div  className="footerParagraph">
+            <div className="footerParagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse metus nulla, pellentesque a sem in, malesuada sodales
               nulla. Nam sit amet orci eget purus gravida facilisis a a nulla.
@@ -53,7 +53,7 @@ const Footer = () => {
               Aliquam placerat condimentum arcu, at condimentum tortor facilisis
               in. Nulla et diam feugiat, blandit eros sit amet, porta felis.
             </div>
-            <div  className="footerSocials flex">
+            <div className="footerSocials flex">
               <FaXTwitter className="icon" />
 
               <FaFacebookF className="icon" />
@@ -63,11 +63,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footerLinks grid">
-            <div
-             
-              data-aos-duration="4000"
-              className="linkGroup"
-            >
+            <div data-aos-duration="4000" className="linkGroup">
               <span className="groupTitle">OUR TEAM</span>
 
               <li className="footerList flex">
@@ -85,11 +81,7 @@ const Footer = () => {
                 Viyu
               </li>
             </div>
-            <div
-              
-              
-              className="linkGroup"
-            >
+            <div className="linkGroup">
               <span className="groupTitle">OUR PARTNERS</span>
 
               <li className="footerList flex">
@@ -105,6 +97,24 @@ const Footer = () => {
               <li className="footerList flex">
                 <FiChevronRight className="icon" />
                 Hotels
+              </li>
+            </div>
+            <div className="linkGroup">
+              <span className="groupTitle">OUR LOCATION</span>
+
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Haile Selassie Road,
+              </li>
+
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Sky Mall Masaki,
+              </li>
+
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Dar es salaam Tanzania.
               </li>
             </div>
           </div>

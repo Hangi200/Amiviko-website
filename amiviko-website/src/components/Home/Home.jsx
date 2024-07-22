@@ -6,8 +6,8 @@ import { FaFilter } from "react-icons/fa";
 import { TfiFacebook } from "react-icons/tfi";
 import { AiFillInstagram } from "react-icons/ai";
 import { SiTiktok } from "react-icons/si";
-import { FaListUl } from "react-icons/fa";
-import { TbAppsFilled } from "react-icons/tb";
+import { BsTwitterX } from "react-icons/bs";
+import { SiYoutube } from "react-icons/si";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -61,15 +61,15 @@ const Home = () => {
             <span>More filter</span>
           </div>
         </div>
-        <div  className="homeFooterIcons flex">
+        <div className="homeFooterIcons flex">
           <div className="rightIcon">
             <TfiFacebook className="icon" />
             <AiFillInstagram className="icon" />
             <SiTiktok className="icon" />
           </div>
           <div className="leftIcon">
-            <FaListUl className="icon" />
-            <TbAppsFilled className="icon" />
+            <SiYoutube className="icon" />
+            <BsTwitterX className='icon'/>
           </div>
         </div>
       </div>

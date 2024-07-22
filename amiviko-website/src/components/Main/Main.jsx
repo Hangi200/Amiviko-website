@@ -4,6 +4,8 @@ import img from '../../Assets/pic1.png'
 import img2 from "../../Assets/pic2.png";
 import img3 from "../../Assets/pic3.jpg";
 import img4 from "../../Assets/pic4.jpeg";
+import img5 from "../../Assets/pic4.jpg";
+import img6 from "../../Assets/pic5.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -51,7 +53,7 @@ const Data = [
   },
   {
     id: 5,
-    imgSrc: img4,
+    imgSrc: img5,
     destTitle: "Weekend Party",
     location: "Havoc Nightspot",
     grade: "DATE",
@@ -60,9 +62,9 @@ const Data = [
       "This is friends gathered occasion which can involve all people from different places,to enjoy,celebrate,drink,eat and also play games together..",
   },
   {
-    id: 5,
-    imgSrc: img4,
-    destTitle: "Weekend Party",
+    id: 6,
+    imgSrc: img6,
+    destTitle: "Night Club Party",
     location: "Havoc Nightspot",
     grade: "DATE",
     fees: "30/6/2024",
