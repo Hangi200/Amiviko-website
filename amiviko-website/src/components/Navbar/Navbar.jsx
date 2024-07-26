@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import './navbar.scss'
-import { SiEventbrite } from "react-icons/si";
+// import { SiEventbrite } from "react-icons/si";
 import { IoIosCloseCircle } from "react-icons/io";
 import { TbGridDots } from "react-icons/tb";
 import { Link } from "react-router-dom";
-
+import logo from "../../Assets/logo.svg";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
@@ -23,10 +23,8 @@ const Navbar = () => {
       <header className="header">
         <div className="logoDiv">
           <a href="" className="logo">
-            <h2 className="head">
-              <SiEventbrite className="icon" />
-              Amiviko.
-            </h2>
+            <img src={logo} alt=""  />
+            {/* <h2 className="head">Amiviko.</h2> */}
           </a>
         </div>
 

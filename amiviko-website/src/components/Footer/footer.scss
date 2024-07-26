@@ -98,7 +98,7 @@
                 border: 1px solid var(--primary-color);
                 outline: none;
                 background: transparent;
-                color: var(--off-white);
+                color: var(--text-primary);
 
                 &::placeholder{
                     color: var(--black);
@@ -147,7 +147,7 @@
                 font-weight: 600;
 
                 .icon{
-                    font-size:25px ;
+                    font-size:15px ;
                     color: var(--primary-color);
                     margin-right: 10px;
                 }

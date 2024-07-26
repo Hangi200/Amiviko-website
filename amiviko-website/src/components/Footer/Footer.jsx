@@ -8,6 +8,7 @@ import { FaTiktok } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiChevronRight } from "react-icons/fi";
+import logo from "../../Assets/logo.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -29,7 +30,11 @@ const Footer = () => {
             <h2>Book with US</h2>
           </div>
           <div className="inputDiv flex">
-            <input type="text" placeholder="Enter Email Address" />
+            <input
+              type="text"
+              placeholder="Enter Email Address"
+              className="input"
+            />
             <button className="btn flex" type="submit">
               SEND <FiSend className="icon" />
             </button>
@@ -38,11 +43,11 @@ const Footer = () => {
         <div className="footerCard flex">
           <div className="footerIntro flex">
             <div className="logoDiv">
-              <a href="#" className="logo flex">
-                <SiEventbrite className="icon" /> AMIVIKO.
-              </a>
+              <p className="logo flex">
+                {/* <img src={logo} alt="" className="icon" /> */} About US.
+              </p>
             </div>
-            <div className="footerParagraph">
+            <div className="footerParagraph ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse metus nulla, pellentesque a sem in, malesuada sodales
               nulla. Nam sit amet orci eget purus gravida facilisis a a nulla.
@@ -62,7 +67,7 @@ const Footer = () => {
               <FaTiktok className="icon" />
             </div>
           </div>
-          <div className="footerLinks grid">
+          <div className="footerLinks flex">
             <div data-aos-duration="4000" className="linkGroup">
               <span className="groupTitle">OUR TEAM</span>
 

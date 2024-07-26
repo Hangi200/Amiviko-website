@@ -66,7 +66,7 @@
         box-shadow: 0 2px 4px rgba(66, 66, 66, 0.549);
         overflow: hidden;
         &:hover{
-            background:var(--border) ;
+            background:var(--green-tertiary) ;
             box-shadow: 1 4px 4px rgba(236, 243, 176, 0.549);
             transition: .3s ease;
         }
