@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './home.scss'
-import video from '../../Assets/vid1.mp4'
+import video from '../../Assets/vid2.mp4'
 import { GiPartyPopper } from "react-icons/gi";
 import { FaFilter } from "react-icons/fa";
 import { TfiFacebook } from "react-icons/tfi";

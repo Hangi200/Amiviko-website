@@ -4,13 +4,10 @@ import img from '../../Assets/pic1.png'
 import img2 from "../../Assets/pic2.png";
 import img3 from "../../Assets/pic3.jpg";
 import img4 from "../../Assets/pic4.jpeg";
-<<<<<<< HEAD
 import img5 from "../../Assets/pic4.jpg";
 import img6 from "../../Assets/pic5.jpg";
-=======
-import img6 from "../../Assets/pic6.jpg"
 
->>>>>>> origin/main
+// import img6 from "../../Assets/pic6.jpg"
 import { FaLocationDot } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +17,7 @@ const Data = [
     id: 1,
     imgSrc: img,
     destTitle: "Friends Gathered",
-    location: "Samaki Samaki",
+    location: "Samaki Samaki Masaki",
     grade: "DATE",
     fees: "02/07/2023",
     description:
@@ -30,7 +27,7 @@ const Data = [
     id: 2,
     imgSrc: img2,
     destTitle: "Family Gathered",
-    location: "Havoc Nightspot",
+    location: "Hotel Slipway",
     grade: "DATE",
     fees: "22/12/2023",
     description:
@@ -40,7 +37,7 @@ const Data = [
     id: 3,
     imgSrc: img3,
     destTitle: "Birthday Party",
-    location: "Havoc Nightspot",
+    location: "Hyatt Regency",
     grade: "DATE",
     fees: "02/02/2024",
     description:
@@ -50,7 +47,7 @@ const Data = [
     id: 4,
     imgSrc: img4,
     destTitle: "Wedding party",
-    location: "Havoc Nightspot",
+    location: "Serena Hotel",
     grade: "DATE",
     fees: "12/04/2024",
     description:
@@ -58,13 +55,9 @@ const Data = [
   },
   {
     id: 5,
-<<<<<<< HEAD
     imgSrc: img5,
-=======
-    imgSrc: img6,
->>>>>>> origin/main
     destTitle: "Weekend Party",
-    location: "Havoc Nightspot",
+    location: "Elemental Dar",
     grade: "DATE",
     fees: "15/05/2024",
     description:

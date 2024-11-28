@@ -190,11 +190,11 @@
     margin-left: 50px !important;
   }
 .section{
-    padding: 9rem 0 4rem;
+    padding: 0;
 
   }
   .secContent{
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1,2fr);
 
     .singleDestination{
       height: auto;

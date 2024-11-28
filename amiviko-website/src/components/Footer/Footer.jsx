@@ -44,27 +44,22 @@ const Footer = () => {
           <div className="footerIntro flex">
             <div className="logoDiv">
               <p className="logo flex">
-                {/* <img src={logo} alt="" className="icon" /> */} About US.
+                {/* <img src={logo} alt="" className="icon" /> */} Amiviko.
               </p>
             </div>
             <div className="footerParagraph ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse metus nulla, pellentesque a sem in, malesuada sodales
-              nulla. Nam sit amet orci eget purus gravida facilisis a a nulla.
-              Integer sit amet sapien nibh. Ut et faucibus ante. Maecenas
-              vestibulum sapien in bibendum venenatis. Nunc quis est blandit,
-              venenatis nisl id, aliquam tortor. Quisque faucibus dictum
-              faucibus. Pellentesque vel risus purus. Morbi vel auctor eros.
-              Aliquam placerat condimentum arcu, at condimentum tortor facilisis
-              in. Nulla et diam feugiat, blandit eros sit amet, porta felis.
+              Welcome to Amiviko, your premier destination for unforgettable
+              events and experiences. We are passionate about creating moments
+              that matter, blending creativity, meticulous planning, and
+              exceptional service to bring your vision to life.
             </div>
             <div className="footerSocials flex">
-              <FaXTwitter className="icon" />
+              <FaXTwitter className="icon"/>
 
-              <FaFacebookF className="icon" />
-              <FaInstagram className="icon" />
+              <FaFacebookF className="icon"/>
+              <FaInstagram className="icon"/>
 
-              <FaTiktok className="icon" />
+              <FaTiktok className="icon"/>
             </div>
           </div>
           <div className="footerLinks flex">
@@ -104,21 +99,21 @@ const Footer = () => {
                 Hotels
               </li>
             </div>
-            <div className="linkGroup">
+            <div className="linkGroup1">
               <span className="groupTitle">OUR LOCATION</span>
 
-              <li className="footerList flex">
-                <FiChevronRight className="icon" />
+              <li className="footerlist1 flex">
+                {/* <FiChevronRight className="icon" /> */}
                 Haile Selassie Road,
               </li>
 
-              <li className="footerList flex">
-                <FiChevronRight className="icon" />
+              <li className="footerlist1 flex">
+                {/* <FiChevronRight className="icon" /> */}
                 Sky Mall Masaki,
               </li>
 
-              <li className="footerList flex">
-                <FiChevronRight className="icon" />
+              <li className="footerlist1 flex">
+                {/* <FiChevronRight className="icon" /> */}
                 Dar es salaam Tanzania.
               </li>
             </div>
