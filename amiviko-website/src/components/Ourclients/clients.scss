@@ -37,13 +37,15 @@
             font-size: 2rem;
             font-weight: 500;
             color: var(--black);
-            margin: 1rem 0;
-            z-index: 2;
+            margin: 0.2rem 0;
+            margin-top: 5px;
+            z-index: 1;
             text-align: center;
         }
         p{
-            font-size: 1.2rem;
+            font-size: 1.0rem;
             align-items: center;
+
         }
     }
 
@@ -52,5 +54,70 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 5rem;
+    }
+
+    .icon{
+        font-size: 2.2rem;
+        background-color: var(--white-smoke-background);
+        color: var(--primary-color);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+        padding: 12px;
+
+
+        &:hover{
+            transform: translate(-3px);
+            color: var(--green-primary);
+        }
+    }
+
+    .client_name{
+        font-size: 1.0rem ;
+        font-weight: 500;
+        color: var(--text-primary);
+    }   
+}
+
+@media screen and (min-width: 500px){
+   .clients{
+
+    .secTitle{
+   .title{
+    font-size: 1.8rem;
+   }
+
+   .p{
+    font-size: 0.8rem;
+   }
+   }
+
+   .secContent{ 
+    display: grid;
+        grid-template-columns: repeat(3,1fr); 
+        gap: 1.5rem;
+         
+
+    }
+
+    .icon{
+        font-size: 1.8rem;
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+    }
+
+       
+}
+
+}
+
+@media screen and (min-width: 840px){
+    .clients{
+    .secContent{ 
+    display: grid;
+        grid-template-columns: repeat(5,2fr); 
+    }
     }
 }
