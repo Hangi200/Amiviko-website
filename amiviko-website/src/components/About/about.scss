@@ -27,53 +27,15 @@
     position: relative;
     padding: 2rem 0;
     display: grid;
-    background: var(--green-tertiary);
+    background: linear-gradient(rgba(247, 211, 95, 0.9), rgba(247, 211, 95, 0.9)), url(../../Assets/pic7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     margin: auto;
     text-align: center;
     margin: 40px auto;
 
-    .secContent{
-        width: 100%;
-        height: max-content;
-        padding: 2rem initial;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: auto;
-        row-gap: 2rem;
-        z-index: 100;
-
-        .contactDiv{
-            justify-content: space-between;
-            flex-direction: column;
-            gap: 0.5rem;
-               
-            .head{
-            width: 90%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            margin: 20px auto;
-            .head h2{
-                    color: var(--primary);
-                    font-size: 15rem;
-                    width: 20%;
-                    align-items: center;
-                    text-indent: 50px;
   
-                    }
-                
-        }
-        .aboutparagraph{
-            font-size: 18px;
-  font-family: 'georgia';
-  font-weight: bold;
-  text-align: center;
-        }
-    }
-}}
+}
